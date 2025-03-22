@@ -1,5 +1,5 @@
 h2, h3, p {
-    line-height: 0.9; /* Setting tighter line spacing */
+    line-height: 1.2; /* Setting tighter line spacing */
     margin: 0; /* This will help reduce the space further */
 }
 body {
@@ -36,7 +36,7 @@ section {
 }
 
 img {
-    width: 150px; /* Adjust as needed */
+    width: 160px; /* Adjust as needed */
     height: auto; /* Maintains aspect ratio */
     border-radius: 8px; /* Optional: rounded corners */
     display: block; /* Optional: gives block-level behavior */
