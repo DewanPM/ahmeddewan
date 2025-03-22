@@ -42,3 +42,7 @@ img {
     display: block; /* Optional: gives block-level behavior */
     margin: 10px auto; /* Centering */
 }
+#Personal information {
+    text-align: center; /* Center text */
+    margin: 20px auto; /* Center the section with margin around */
+}
