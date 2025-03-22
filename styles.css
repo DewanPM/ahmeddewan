@@ -1,6 +1,10 @@
+h2, h3, p {
+    line-height: 0.9; /* Setting tighter line spacing */
+    margin: 0; /* This will help reduce the space further */
+}
 body {
     font-family: Times New Roman, sans-serif;
-    line-height: 1.0;
+    line-height: 0.9;
     margin: 0;
     padding: 0;
     color: #333;
