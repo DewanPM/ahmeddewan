@@ -31,3 +31,18 @@ section {
     border-radius: 8px;
 }
 
+#Personal information {
+    text-align: center; /* Center-aligns the text */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+.profile-image {
+    width: 150px; /* Set a suitable width */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 50%; /* Optional: makes the image circular */
+}
+
+h2, h3 {
+    margin: 10px 0; /* Spacing between headings */
+}
+
