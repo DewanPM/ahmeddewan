@@ -48,3 +48,26 @@ h2, h3, p {
             margin-bottom: 1.5em; /* Adjust the value as needed */
         }
     </style>
+
+<style>
+        body {
+            font-family: Arial, sans-serif; /* Specify font family */
+            margin: 20px;  /* Margin around the page */
+        }
+        .container {
+            display: flex; /* Use Flexbox for layout */
+            justify-content: space-between; /* Space between text and image */
+            align-items: flex-start; /* Align items at the start */
+        }
+        .text {
+            max-width: 60%; /* Set a maximum width for the text */
+            margin-right: 20px; /* Space between text and image */
+        }
+        img {
+            max-width: 200px; /* Set image width */
+            height: auto; /* Keep aspect ratio */
+        }
+        p {
+            margin-bottom: 1.5em; /* Spacing between paragraphs */
+        }
+    </style>
