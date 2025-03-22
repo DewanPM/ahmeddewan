@@ -20,29 +20,9 @@ nav ul {
     list-style: none;
     padding: 0;
 }
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-section {
-    margin: 20px;
-    padding: 20px;
-    background: #ffffff;
-    border-radius: 8px;
-}
 
-img {
-    width: 160px; /* Adjust as needed */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 8px; /* Optional: rounded corners */
-    display: block; /* Optional: gives block-level behavior */
-    margin: 10px auto; /* Centering */
-}
-#Personal information {
-    text-align: center; /* Center text */
-    margin: 20px auto; /* Center the section with margin around */
-}
+nav ul li {display: inline; margin: 0 10px;}
+nav ul li a {color: #ffffff; text-decoration: none;}
+section { margin: 20px; padding: 20px; background: #ffffff;border-radius: 8px;}
+img {width: 160px; height: auto;  border-radius: 8px; display: block;  margin: 10px auto; }
+ {text-align: center;margin: 20px auto; }
