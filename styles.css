@@ -37,7 +37,7 @@ section {
 }
 
 profile-image {
-    width: 110px; /* Set a suitable width */
+    width: 100px; /* Set a suitable width */
     height: auto; /* Maintains the aspect ratio */
     border-radius: 50%; /* Optional: makes the image circular */
 }
