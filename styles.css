@@ -36,7 +36,7 @@ section {
 }
 
 img {
-    width: 105px; /* Adjust as needed */
+    width: 110px; /* Adjust as needed */
     height: auto; /* Maintains aspect ratio */
     border-radius: 8px; /* Optional: rounded corners */
     display: block; /* Optional: gives block-level behavior */
