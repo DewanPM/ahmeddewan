@@ -24,5 +24,19 @@ nav ul {
 nav ul li {display: inline; margin: 0 10px;}
 nav ul li a {color: #ffffff; text-decoration: none;}
 section { margin: 20px; padding: 20px; background: #ffffff;border-radius: 8px;}
-img {width: 160px; height: auto;  border-radius: 8px; display: block;  margin: 10px auto; }
- {text-align: center;margin: 20px auto; }
+
+.image-container {
+    text-align: center; /* Center the text */
+}
+
+img {
+    width: 160px; /* Desired width */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+    display: block; /* Makes the image a block element */
+    margin: 10px auto; /* Centers the image */
+}
+
+h2, h3, p {
+    margin: 10px 0; /* Spacing between text elements */
+}
