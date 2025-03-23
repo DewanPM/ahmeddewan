@@ -126,3 +126,40 @@ h2, h3, p {
             margin: 0; /* Remove margin for these specific lines */
         }
     </style>
+
+<style>
+    body {
+        font-family: Arial, sans-serif; /* Sets the font for the body */
+        margin: 0; /* Removes default margins around the body */
+        padding: 20px; /* Adds padding inside the body */
+    }
+    
+    .container {
+        background-color: #f2f2f2; /* Sets a background color for the container */
+        padding: 20px; /* Adds padding around the content inside the container */
+        text-align: center; /* Centers the text inside the container */
+    }
+
+    .no-spacing {
+        margin: 0; /* Removes margin for specific lines to eliminate spacing */
+    }
+</style>
+
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            padding: 20px;
+        }
+        
+        .container {
+            background-color: #f2f2f2; 
+            padding: 20px;
+            text-align: center; 
+        }
+
+        /* Add specific styles to remove space between lines */
+        .no-spacing {
+            margin: 0; /* Remove margins for specific use case */
+        }
+    </style>
