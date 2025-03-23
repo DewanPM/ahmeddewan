@@ -51,44 +51,37 @@ h2, h3, p {
 
 <style>
         body {
-            font-family: Arial, sans-serif; /* Specify font family */
-            margin: 20px;  /* Margin around the page */
-        }
-        .container {
-            display: flex; /* Use Flexbox for layout */
-            justify-content: space-between; /* Space between text and image */
-            align-items: flex-start; /* Align items at the start */
-        }
-        .text {
-            max-width: 60%; /* Set a maximum width for the text */
-            margin-right: 20px; /* Space between text and image */
-        }
-        img {
-            max-width: 200px; /* Set image width */
-            height: auto; /* Keep aspect ratio */
-        }
-        p {
-            margin-bottom: 1.5em; /* Spacing between paragraphs */
-        }
-    </style>
-
-
-
- <style>
-        body {
             font-family: Arial, sans-serif;
             margin: 0; 
             padding: 20px;
         }
         
+        .image-container {
+            text-align: center; /* Center the image and text */
+        }
+
+        .profile-image {
+            max-width: 100%; /* Responsive image */
+            height: auto;
+        }
+
         .container {
             background-color: #f2f2f2; 
             padding: 20px;
-            text-align: center; 
         }
 
-        /* Add specific styles to remove space between lines */
+        .name {
+            font-weight: bold; /* Make the name bold */
+            margin: 0; /* Remove additional margin */
+        }
+
         .no-spacing {
-            margin: 0; /* Remove margins for specific use case */
+            margin: 0; /* Remove margins for this line */
+        }
+
+        p {
+            margin: 0; /* Ensure all paragraphs have no margin */
         }
     </style>
+
+
