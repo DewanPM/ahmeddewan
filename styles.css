@@ -71,3 +71,15 @@ h2, h3, p {
             margin-bottom: 1.5em; /* Spacing between paragraphs */
         }
     </style>
+
+<style>
+        body {
+            font-family: Arial, sans-serif; /* Base font */
+        }
+        .job-title {
+            font-weight: bold; /* Bold font for title */
+        }
+        .no-spacing {
+            margin: 0; /* Removes spacing for this specific element */
+        }
+    </style>
