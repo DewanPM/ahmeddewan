@@ -49,39 +49,3 @@ h2, h3, p {
         }
     </style>
 
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0; 
-            padding: 20px;
-        }
-        
-        .image-container {
-            text-align: center; /* Center the image and text */
-        }
-
-        .profile-image {
-            max-width: 100%; /* Responsive image */
-            height: auto;
-        }
-
-        .container {
-            background-color: #f2f2f2; 
-            padding: 20px;
-        }
-
-        .name {
-            font-weight: bold; /* Make the name bold */
-            margin: 0; /* Remove additional margin */
-        }
-
-        .no-spacing {
-            margin: 0; /* Remove margins for this line */
-        }
-
-        p {
-            margin: 0; /* Ensure all paragraphs have no margin */
-        }
-    </style>
-
-
