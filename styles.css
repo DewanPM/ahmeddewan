@@ -1,55 +1,62 @@
-h2, h3, p {
-    line-height: 1.2; /* Setting tighter line spacing */
-    margin: 0; /* This will help reduce the space further */
-}
 body {
-    font-family: Times New Roman, sans-serif;
-    line-height: 0.9;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f4f4f4; 
 }
+
 header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
+    background-color: #333; 
+    color: white; 
+    padding: 10px 0; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 1000; 
 }
+
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    margin: 0; 
+    padding: 0; 
 }
 
-nav ul li {display: inline; margin: 0 10px;}
-nav ul li a {color: #ffffff; text-decoration: none;}
-section { margin: 20px; padding: 20px; background: #ffffff;border-radius: 8px;}
-
-.image-container {
-    text-align: center; /* Center the text */
+nav ul li {
+    margin: 0 15px; 
 }
 
-img {
-    width: 160px; /* Desired width */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 8px; /* Optional: rounded corners */
-    display: block; /* Makes the image a block element */
-    margin: 10px auto; /* Centers the image */
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
 }
 
-h2, h3, p {
-    margin: 5px 0; /* Spacing between text elements */
+nav ul li a:hover {
+    text-decoration: underline; 
 }
 
+main {
+    max-width: 800px; 
+    margin: 80px auto 20px; 
+    padding: 20px; 
+    background-color: white; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    text-align: center; 
+}
 
-<style>
-        /* CSS to add spacing between paragraphs */
-        p {
-            margin-bottom: 1.5em; /* Adjust the value as needed */
-        }
-    </style>
+h1 {
+    margin: 0 0 10px; 
+    font-size: 2.5em; 
+}
 
-
-/* Add the following CSS rule to your styles.css this part for paragraphs spacing */
-.section-spacing p {
-    margin-bottom: 25px; /* Adjust the value for desired spacing */}
+footer {
+    text-align: center; 
+    padding: 10px 0; 
+    background-color: #333; 
+    color: white; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+}
